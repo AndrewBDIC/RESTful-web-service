@@ -31,4 +31,5 @@ docker中的image,是存储在docker仓库.
 使用docker run的时候, 如果images里面没有存在指定的image时, docker会主动去docker hub里面找,然后下载,并且自动运行.
 在拉取的时候,想知道这个image是否是真正存在的话,就可以使用.docker 提供的搜索指令.
 在docker中,可以使用自带的search命令,搜索所有含有指定term的image. 相当于js中的search 方法.
-使用了Dockerfile，是为了迅速的构建image。
+使用了Dockerfile，是为了迅速的构建image.
+Reference: https://blog.csdn.net/chenming_hnu/article/details/54408998 Docker学习笔记
